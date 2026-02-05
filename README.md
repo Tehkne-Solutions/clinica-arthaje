@@ -1,0 +1,61 @@
+# 🌸 Clínica ArThaJe - Website Institucional
+
+> **Desenvolvido pela TEHKNÉ SOLUTIONS**  
+> Framework: CODEX HNK | Arquitetura: Next.js 14 + MUI + Tailwind
+
+## 🎨 Design System
+
+- **Rosa Elegante**: `#B87A9A` (Primary)
+- **Bege Conforto**: `#F5F5F0` (Secondary)
+- **Rosa Claro**: `#FFB6C1` (Accent)
+- **Grafite**: `#333333` (Text)
+- **Border Radius**: 16px (Elementos arredondados)
+
+## 🚀 Stack Técnica
+
+- **Framework**: Next.js 14 (App Router)
+- **UI**: Material UI (MUI) customizado
+- **Styling**: Tailwind CSS
+- **Tipografia**: Playfair Display (Títulos) + Montserrat (Corpo)
+- **Deploy**: Vercel
+
+## 📦 Instalação
+
+```bash
+npm install
+npm run dev
+```
+
+## 🏗️ Estrutura
+
+```
+/app          → Páginas (App Router)
+/components   → Componentes reutilizáveis
+/theme        → Design System MUI
+/public       → Assets estáticos
+```
+
+## ✅ Módulo 1: COMPLETO
+- [x] Setup do ambiente
+- [x] Design System ArThaJe
+- [x] Theme MUI configurado
+- [x] Fontes Google integradas
+- [x] Layout base com ThemeProvider
+
+## ✅ Módulo 2: COMPLETO
+- [x] Header com navegação responsiva
+- [x] Menu mobile (drawer)
+- [x] Footer com 3 colunas
+- [x] Flor ArThaJe decorativa (lateral direita)
+- [x] Links de redes sociais
+
+## 🚧 Próximos Módulos
+- [ ] Módulo 3: Homepage de Vendas (Hero + CTA)
+- [ ] Módulo 4: Seções Fisioterapia/Estética
+- [ ] Módulo 5: Integrações (Calendly, Chatbot)
+- [ ] Módulo 6: Blog & SEO
+
+---
+
+**vCTO**: Arquitetura validada pelo CODEX HNK  
+**Status**: Fase 2 - Execução Ativa

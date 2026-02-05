@@ -1,0 +1,22 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flor ArThaJe - Placeholder -->
+  <g transform="translate(250, 250)">
+    <!-- Pétalas -->
+    <ellipse cx="0" cy="-80" rx="40" ry="80" fill="#B87A9A" opacity="0.8" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-80" rx="40" ry="80" fill="#B87A9A" opacity="0.8" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-80" rx="40" ry="80" fill="#FFB6C1" opacity="0.7" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-80" rx="40" ry="80" fill="#B87A9A" opacity="0.8" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-80" rx="40" ry="80" fill="#FFB6C1" opacity="0.7" transform="rotate(288)"/>
+    
+    <!-- Centro -->
+    <circle cx="0" cy="0" r="30" fill="#8B5A7A"/>
+    <circle cx="0" cy="0" r="20" fill="#F5F5F0" opacity="0.6"/>
+  </g>
+  
+  <!-- Caule -->
+  <rect x="240" y="250" width="20" height="200" fill="#8B5A7A" rx="10"/>
+  
+  <!-- Folhas -->
+  <ellipse cx="220" cy="320" rx="30" ry="50" fill="#8B5A7A" opacity="0.7" transform="rotate(-30 220 320)"/>
+  <ellipse cx="280" cy="380" rx="30" ry="50" fill="#8B5A7A" opacity="0.7" transform="rotate(30 280 380)"/>
+</svg>
