@@ -47,6 +47,19 @@ export default function Hero() {
               }}
             >
               <Typography
+                sx={{
+                  fontSize: { xs: '0.75rem', md: '0.875rem' },
+                  fontWeight: 600,
+                  color: 'rgba(0, 0, 0, 0.6)',
+                  letterSpacing: '2px',
+                  mb: 1,
+                  textTransform: 'uppercase',
+                }}
+              >
+                Clínica de Fisioterapia e Estética
+              </Typography>
+
+              <Typography
                 variant="h1"
                 component="h1"
                 sx={{
