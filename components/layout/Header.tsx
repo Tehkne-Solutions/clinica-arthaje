@@ -20,8 +20,8 @@ export default function Header() {
     >
       <Container maxWidth="lg">
         <Toolbar sx={{ justifyContent: 'space-between', py: 1 }}>
-          <Box sx={{ fontSize: '1.5rem', fontWeight: 700, color: 'primary.main', display: 'flex', alignItems: 'center', gap: 1 }}>
-            <Image src="/images/logo-arthaje.png" alt="ArThaJe" width={120} height={40} style={{ objectFit: 'contain' }} />
+          <Box sx={{ fontSize: '1.5rem', fontWeight: 700, color: 'primary.main' }}>
+            ArThaJe
           </Box>
 
           <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 4 }}>
