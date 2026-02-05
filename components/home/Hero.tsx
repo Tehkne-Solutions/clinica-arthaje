@@ -14,14 +14,29 @@ export default function Hero() {
   return (
     <Box
       sx={{
-        background: 'linear-gradient(135deg, #F5F5F0 0%, #FFFFFF 100%)',
+        position: 'relative',
+        bgcolor: '#F5F5F0',
         py: { xs: 8, md: 12 },
         minHeight: '85vh',
         display: 'flex',
         alignItems: 'center',
+        overflow: 'hidden',
+        '&::before': {
+          content: '""',
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundImage: 'url("https://images.unsplash.com/photo-1540206395-68808572332f?w=1200")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          opacity: 0.08,
+          zIndex: 0,
+        },
       }}
     >
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
         <Grid container spacing={6} alignItems="center">
           <Grid item xs={12} md={6}>
             <Box
@@ -92,10 +107,10 @@ export default function Hero() {
               sx={{
                 position: 'relative',
                 width: '100%',
-                height: { xs: 300, md: 500 },
-                borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%',
+                height: { xs: 400, md: 550 },
+                borderRadius: '24px',
                 overflow: 'hidden',
-                boxShadow: '0 20px 60px rgba(184, 122, 154, 0.2)',
+                boxShadow: '0 20px 60px rgba(209, 77, 114, 0.2)',
                 opacity: fadeIn ? 1 : 0,
                 transform: fadeIn ? 'scale(1)' : 'scale(0.95)',
                 transition: 'all 1s ease-out 0.3s',
@@ -105,7 +120,7 @@ export default function Hero() {
                 src="/images/dra-hildete.png"
                 alt="Dra. Hildete Ferreira - Fisioterapeuta CREFITO 430943-F"
                 fill
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: 'cover', objectPosition: 'center top' }}
                 priority
               />
             </Box>

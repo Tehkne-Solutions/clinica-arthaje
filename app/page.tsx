@@ -1,5 +1,6 @@
 import Hero from '@/components/home/Hero';
 import ValueProposition from '@/components/home/ValueProposition';
+import ImpactSection from '@/components/home/ImpactSection';
 import CTASection from '@/components/home/CTASection';
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <ValueProposition />
+      <ImpactSection />
       <CTASection />
     </>
   );
