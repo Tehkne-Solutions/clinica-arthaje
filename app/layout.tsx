@@ -7,8 +7,9 @@ import Footer from '@/components/layout/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Clínica ArThaJe | Fisioterapia e Estética em Brasília',
-  description: 'Cuidado integral com fisioterapia especializada e tratamentos estéticos avançados. Agende sua consulta.',
+  title: 'Clínica ArThaJe | Fisioterapia e Estética em Itambacuri-MG',
+  description: 'Dra. Hildete Ferreira (CREFITO 430943-F) oferece tratamentos avançados de fisioterapia e estética em Itambacuri. Agende sua consulta.',
+  keywords: 'Fisioterapia Itambacuri, Estética Itambacuri, Dra. Hildete Ferreira, Clínica ArThaJe, CEP 39830-000',
 }
 
 export default function RootLayout({

@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'arthaje-rosa': '#B87A9A',
+        'arthaje-rosa': '#D14D72',
         'arthaje-bege': '#F5F5F0',
         'arthaje-rosa-claro': '#FFB6C1',
         'arthaje-grafite': '#333333',

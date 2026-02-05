@@ -5,9 +5,9 @@ import { createTheme } from '@mui/material/styles';
 export const arthajetheme = createTheme({
   palette: {
     primary: {
-      main: '#B87A9A',
+      main: '#D14D72',
       light: '#FFB6C1',
-      dark: '#8B5A7A',
+      dark: '#A03A5A',
     },
     secondary: {
       main: '#F5F5F0',

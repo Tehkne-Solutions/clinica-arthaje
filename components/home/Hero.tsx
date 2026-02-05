@@ -42,7 +42,7 @@ export default function Hero() {
                   lineHeight: 1.2,
                 }}
               >
-                Clínica de Fisioterapia e Estética em Brasília
+                Transforme Sua Saúde e Beleza em Itambacuri-MG
               </Typography>
 
               <Typography
@@ -55,7 +55,7 @@ export default function Hero() {
                   lineHeight: 1.6,
                 }}
               >
-                Onde a ciência da reabilitação encontra a arte do bem-estar.
+                Com Dra. Hildete Ferreira, Fisioterapeuta (CREFITO 430943-F). Onde a ciência da reabilitação encontra a arte do bem-estar.
               </Typography>
 
               <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
@@ -69,7 +69,7 @@ export default function Hero() {
                     fontSize: '1.1rem',
                   }}
                 >
-                  Agendar Avaliação
+                  Agendar Consulta em Itambacuri
                 </Button>
                 <Button
                   variant="outlined"
@@ -102,8 +102,8 @@ export default function Hero() {
               }}
             >
               <Image
-                src="/images/hero-image.svg"
-                alt="Clínica ArThaJe - Ambiente acolhedor"
+                src="/images/dra-hildete.png"
+                alt="Dra. Hildete Ferreira - Fisioterapeuta CREFITO 430943-F"
                 fill
                 style={{ objectFit: 'cover' }}
                 priority

@@ -5,11 +5,18 @@
 
 ## 🎨 Design System
 
-- **Rosa Elegante**: `#B87A9A` (Primary)
+- **Rosa Vibrante**: `#D14D72` (Primary)
 - **Bege Conforto**: `#F5F5F0` (Secondary)
 - **Rosa Claro**: `#FFB6C1` (Accent)
 - **Grafite**: `#333333` (Text)
 - **Border Radius**: 16px (Elementos arredondados)
+
+## 📍 Localização
+
+- **Cidade**: Itambacuri-MG
+- **Profissional**: Dra. Hildete Ferreira
+- **CREFITO**: 430943-F
+- **Domínio**: www.clinicaarthaje.com.br
 
 ## 🚀 Stack Técnica
 
