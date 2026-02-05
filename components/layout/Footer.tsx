@@ -43,8 +43,9 @@ export default function Footer() {
             <Typography variant="h5" color="primary" gutterBottom sx={{ fontWeight: 700 }}>
               ArThaJe
             </Typography>
-            <Typography variant="body2" color="text.secondary" sx={{ mt: 2 }}>
-              Cuidado integral com fisioterapia especializada e tratamentos estéticos avançados.
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+              Clínica de Fisioterapia e Estética.<br />
+              Transformando intenção em bem-estar através da precisão técnica.
             </Typography>
           </Grid>
 
@@ -66,9 +67,9 @@ export default function Footer() {
               Contato
             </Typography>
             <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+              Brasília - DF<br />
               (61) 99999-9999<br />
-              contato@arthaje.com.br<br />
-              Brasília - DF
+              contato@arthaje.com.br
             </Typography>
             <Box sx={{ display: 'flex', gap: 1 }}>
               <IconButton color="primary" size="small">
@@ -86,7 +87,7 @@ export default function Footer() {
 
         <Box sx={{ mt: 6, pt: 3, borderTop: '1px solid rgba(0,0,0,0.1)', textAlign: 'center' }}>
           <Typography variant="body2" color="text.secondary">
-            © 2026 Clínica ArThaJe | Desenvolvido por TEHKNÉ SOLUTIONS
+            © {new Date().getFullYear()} Clínica ArThaJe | Desenvolvido por TEHKNÉ SOLUTIONS
           </Typography>
         </Box>
       </Container>

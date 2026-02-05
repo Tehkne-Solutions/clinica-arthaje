@@ -10,7 +10,14 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <AppBar position="sticky" elevation={0}>
+    <AppBar 
+      position="sticky" 
+      elevation={0}
+      sx={{
+        backgroundColor: 'rgba(245, 245, 240, 0.95)',
+        backdropFilter: 'blur(10px)',
+      }}
+    >
       <Container maxWidth="lg">
         <Toolbar sx={{ justifyContent: 'space-between', py: 1 }}>
           <Box sx={{ fontSize: '1.5rem', fontWeight: 700, color: 'primary.main' }}>
