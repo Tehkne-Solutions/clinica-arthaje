@@ -49,8 +49,14 @@ npm run dev
 - [x] Flor ArThaJe decorativa (lateral direita)
 - [x] Links de redes sociais
 
+## ✅ Módulo 3: COMPLETO
+- [x] Hero Section com animações
+- [x] Proposta de Valor (3 benefícios)
+- [x] CTA de conversão
+- [x] SEO otimizado (H1/H2)
+- [x] Design responsivo
+
 ## 🚧 Próximos Módulos
-- [ ] Módulo 3: Homepage de Vendas (Hero + CTA)
 - [ ] Módulo 4: Seções Fisioterapia/Estética
 - [ ] Módulo 5: Integrações (Calendly, Chatbot)
 - [ ] Módulo 6: Blog & SEO
