@@ -63,8 +63,14 @@ npm run dev
 - [x] SEO otimizado (H1/H2)
 - [x] Design responsivo
 
+## ✅ Módulo 4: COMPLETO
+- [x] Seção de Tratamentos (Fisioterapia)
+- [x] Seção de Tratamentos (Estética)
+- [x] Cards com hover effects
+- [x] Ícones MUI em Rosa Vibrante
+- [x] Layout responsivo
+
 ## 🚧 Próximos Módulos
-- [ ] Módulo 4: Seções Fisioterapia/Estética
 - [ ] Módulo 5: Integrações (Calendly, Chatbot)
 - [ ] Módulo 6: Blog & SEO
 
