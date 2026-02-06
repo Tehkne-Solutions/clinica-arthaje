@@ -40,9 +40,9 @@ export default function Footer() {
       <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
-            <Typography variant="h5" color="primary" gutterBottom sx={{ fontWeight: 700 }}>
-              ArThaJe
-            </Typography>
+            <Box sx={{ mb: 2 }}>
+              <Image src="/assets/logo-arthaje.png" alt="Clínica ArThaJe" width={140} height={50} style={{ objectFit: 'contain' }} />
+            </Box>
             <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
               Clínica de Fisioterapia e Estética.<br />
               Transformando intenção em bem-estar através da precisão técnica.

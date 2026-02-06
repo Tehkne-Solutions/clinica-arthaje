@@ -2,6 +2,7 @@
 
 import { AppBar, Toolbar, Container, Button, Box, IconButton, Drawer, List, ListItem } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import Image from 'next/image';
 import { useState } from 'react';
 
 const navLinks = ['Home', 'Sobre', 'Serviços', 'Blog'];
@@ -20,8 +21,8 @@ export default function Header() {
     >
       <Container maxWidth="lg">
         <Toolbar sx={{ justifyContent: 'space-between', py: 1 }}>
-          <Box sx={{ fontSize: '1.5rem', fontWeight: 700, color: 'primary.main' }}>
-            ArThaJe
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            <Image src="/assets/logo-arthaje.png" alt="Clínica ArThaJe" width={140} height={50} style={{ objectFit: 'contain' }} priority />
           </Box>
 
           <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 4 }}>
