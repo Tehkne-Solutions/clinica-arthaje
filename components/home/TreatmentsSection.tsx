@@ -6,7 +6,6 @@ import SpaIcon from '@mui/icons-material/Spa';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 import FaceRetouchingNaturalIcon from '@mui/icons-material/FaceRetouchingNatural';
-import MassageIcon from '@mui/icons-material/Massage';
 
 const fisioterapia = [
   { icon: <LocalHospitalIcon sx={{ fontSize: 48 }} />, title: 'Ortopedia', desc: 'Reabilitação de lesões e pós-operatório' },
@@ -17,7 +16,7 @@ const fisioterapia = [
 const estetica = [
   { icon: <FaceRetouchingNaturalIcon sx={{ fontSize: 48 }} />, title: 'Facial', desc: 'Tratamentos rejuvenescedores' },
   { icon: <SpaIcon sx={{ fontSize: 48 }} />, title: 'Corporal', desc: 'Modelagem e drenagem linfática' },
-  { icon: <MassageIcon sx={{ fontSize: 48 }} />, title: 'Massoterapia', desc: 'Relaxamento e bem-estar' },
+  { icon: <SelfImprovementIcon sx={{ fontSize: 48 }} />, title: 'Massoterapia', desc: 'Relaxamento e bem-estar' },
 ];
 
 export default function TreatmentsSection() {

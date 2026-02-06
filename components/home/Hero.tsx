@@ -95,6 +95,10 @@ export default function Hero() {
                     px: 4,
                     py: 1.5,
                     fontSize: '1.1rem',
+                    transition: 'transform 0.3s ease',
+                    '&:hover': {
+                      transform: 'scale(1.05)',
+                    },
                   }}
                 >
                   Agendar Consulta em Itambacuri
