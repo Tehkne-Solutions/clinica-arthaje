@@ -125,21 +125,45 @@ export default function Hero() {
                 position: 'relative',
                 width: '100%',
                 height: { xs: 400, md: 550 },
-                borderRadius: '24px',
-                overflow: 'hidden',
-                boxShadow: '0 20px 60px rgba(209, 77, 114, 0.2)',
                 opacity: fadeIn ? 1 : 0,
                 transform: fadeIn ? 'scale(1)' : 'scale(0.95)',
                 transition: 'all 1s ease-out 0.3s',
               }}
             >
-              <Image
-                src="/images/dra-hildete.png"
-                alt="Dra. Hildete Ferreira - Fisioterapeuta CREFITO 430943-F"
-                fill
-                style={{ objectFit: 'cover', objectPosition: 'center top' }}
-                priority
-              />
+              <Box
+                sx={{
+                  position: 'absolute',
+                  bottom: -20,
+                  right: -20,
+                  width: '80%',
+                  height: '80%',
+                  zIndex: 0,
+                  opacity: 0.3,
+                }}
+              >
+                <Image
+                  src="/images/footer-flower.svg"
+                  alt=""
+                  fill
+                  style={{ objectFit: 'contain' }}
+                />
+              </Box>
+              <Box
+                sx={{
+                  position: 'relative',
+                  width: '100%',
+                  height: '100%',
+                  zIndex: 1,
+                }}
+              >
+                <Image
+                  src="/images/dra. Hildete dos Santos Ferreira-Sem fundo.png"
+                  alt="Dra. Hildete Ferreira - Fisioterapeuta CREFITO 430943-F"
+                  fill
+                  style={{ objectFit: 'contain', objectPosition: 'center bottom' }}
+                  priority
+                />
+              </Box>
             </Box>
           </Grid>
         </Grid>
